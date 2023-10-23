@@ -1,0 +1,55 @@
+[
+{
+    "model": "articles.article",
+    "pk": 1,
+    "fields": {
+        "user": 1,
+        "title": "1st",
+        "content": "오늘은 화요일",
+        "created_at": "2023-10-17T00:20:04.090Z",
+        "updated_at": "2023-10-17T00:20:04.090Z",
+        "like_users": []
+    }
+},
+{
+    "model": "articles.article",
+    "pk": 2,
+    "fields": {
+        "user": 1,
+        "title": "2nd",
+        "content": "내일은 수요일",
+        "created_at": "2023-10-17T00:20:13.561Z",
+        "updated_at": "2023-10-17T00:20:13.561Z",
+        "like_users": [
+            1,
+            2
+        ]
+    }
+},
+{
+    "model": "articles.article",
+    "pk": 3,
+    "fields": {
+        "user": 3,
+        "title": "asdf",
+        "content": "asdfasdf",
+        "created_at": "2023-10-17T01:01:09.887Z",
+        "updated_at": "2023-10-17T01:01:09.887Z",
+        "like_users": [
+            2
+        ]
+    }
+},
+{
+    "model": "articles.article",
+    "pk": 4,
+    "fields": {
+        "user": 4,
+        "title": "asdf",
+        "content": "asdfasdf",
+        "created_at": "2023-10-17T01:01:22.747Z",
+        "updated_at": "2023-10-17T01:01:22.747Z",
+        "like_users": []
+    }
+}
+]
